@@ -50,11 +50,14 @@ public class ArticleDetailFragment extends Fragment implements
     private long mItemId;
     private View mRootView;
     private int mMutedColor = 0xFF333333;
-
+    private ObservableScrollView mScrollView;
+    private DrawInsetsFrameLayout mDrawInsetsFrameLayout;
     private ColorDrawable mStatusBarColorDrawable;
 
+    private int mTopInset;
     private View mPhotoContainerView;
     private ImageView mPhotoView;
+    private int mScrollY;
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
 
