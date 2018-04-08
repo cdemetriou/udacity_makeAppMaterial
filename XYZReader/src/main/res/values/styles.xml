@@ -17,15 +17,14 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
-    </style>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
-    <style name="Theme.Bacon.Detail">
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowDisablePreview">true</item>
-
-
 
     </style>
 
